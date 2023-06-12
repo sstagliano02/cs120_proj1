@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Band Covers</title>
+
+    <link rel="stylesheet" href="band_style.css">
+    <!-- Below is the needed for the twitter/FB icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Below needed for Google Font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+        #covers {
+          font-family: Helvetica, sans-serif;
+          font-size: 1.2rem;
+          border-collapse: collapse;
+          background-color: #8f8383;
+          margin: 2rem auto;
+          border: 3px solid #000
+        }
+
+        #covers td, #covers th {
+          border: 2px solid #000000;
+          padding: 8px 40px;
+        }
+
+        #covers tr:nth-child(even) {
+            background-color: #fce9e9;
+        }
+
+        #covers tr:hover {
+            background-color: #ff4e4e;
+        }
+
+        #covers th {
+          text-align: center;
+          background-color: #bb0a1e;
+          color: white;
+        }
+    </style>
+</head>
+
+<body>
+     <header>
+        <div>
+            <h1 id = "bandname">Black Veil</h1>
+            <h3 id = "subtitle">An Alternative Wedding Band</h3>
+        </div>
+    </header>
+
+    <div class="social">
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+    </div>
+
+    <nav class = navbar>
+        <a href="band.html">Home</a>
+        <a href="band.html#content">Our Story</a>
+        <a href="band_singers.html">Singers</a>
+        <a href="band_covers.html">Cover List</a>
+        <a href="band_contact.html">Contact Us</a>
+    </nav>
+
+    <content>
+        <table id = "covers">
+            <tr>
+                <th>Artist</th>
+                <th >Songs</th>
+            </tr>
+            <tr>
+                <td>Metallica</td>
+                <td> <ol>
+                        <li>Master of Puppets</li>
+                        <li>Whiskey in the Jar</li>
+                        <li>The Unforgiven</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Black Sabbath</td>
+                <td><ol>
+                        <li>War Pigs</li>
+                        <li>Psycho Man</li>
+                        <li>Sweet Leaf</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Slipknot</td>
+                <td> <ol>
+                        <li>Spit it Out</li>
+                        <li>Nero Forte</li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td>Taylor Swift</td>
+                <td><ol>
+                        <li>All of them.</li>
+                        <li>Every single one.</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </content>
+
+    <footer>
+        <div>
+            <a id = "contact" href="band_contact.html">Contact Us </a>
+        </div>
+        <div>
+            <p id = "copy">BlackVeil Inc. &copy 2023</p>
+        </div>
+        <div>
+            <p id = "disclaimer">Website for practice purposes only.
+            Not a real band: Tufts CS-120</p>
+        </div>
+    </footer>
+
+</body>
+</html>
