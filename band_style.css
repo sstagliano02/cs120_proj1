@@ -173,6 +173,19 @@ form {
   font-size: 1.5rem;
 }
 
+form div{
+  display: flex;
+  align-items: center;
+}
+
+label {
+  padding-right: 5px;
+}
+
+#details {
+  height: 150px;
+}
+
 /* Styling for footer. Stick to bottom of page */
 footer {
   position: sticky;
@@ -289,5 +302,13 @@ form div {
   #disclaimer, #contact {
     display: none;
   }
+
+#details {
+  height: 150px;
+}
+
+label {
+padding-top: 10px;
+}
 
 }
